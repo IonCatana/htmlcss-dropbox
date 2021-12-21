@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cleaefix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix .col1{
+    padding-right: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.header-nav-left{
+    margin-top: 10px;
+    width: 50%;          
+}
+.header-nav-right{
+    margin-top: 10px;
+    width: 50%;
+}
+.col-1{    
+    float: left;      
+}
+.col-2, .img-logo{
+    float: left;    
+}
+img{    
+    padding-top: 6px;    
+}
+ul{
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;    
+}
+a{
+    text-decoration: none;
+}
+
+
