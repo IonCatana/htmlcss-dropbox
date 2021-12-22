@@ -15,11 +15,12 @@ header{
     width: 1200px;
     margin: 0 auto;
 }
-/* Inizio container */
+
 .container{
     width: 100%;    
     margin: 0 auto;
 }
+/* Inizio header */
 .clearfix{
     min-height: 50px;
 }
@@ -58,7 +59,8 @@ a{
     text-decoration: none;
     color: black;
 }
-/* Fine container */
+/* Fine header  */
+
 /* Inizio header bottom */
 .header-bottom-top{  
     width: 1200px;  
@@ -122,7 +124,7 @@ main{
     margin: 0 auto;
     border: 1px solid black;
 }
-/* Inizio main'contein */
+/* Inizio main contein */
 .main-contein{
     width: 70%;
     margin: 0 auto;
@@ -136,6 +138,7 @@ main{
 .titolo-main-top > h2{
     margin: 80px 0;
     font-size: 30px;
+    font-weight: 900;
 }
 .input-div{
     
@@ -164,6 +167,57 @@ main{
 .titolo-main-bottom{
     width: 100%;
     border: 1px solid aqua ;
-} span{
-    display: block;
+} 
+/* Inizio col1 */
+.singolo{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
+/* Inizio tittolo price col1 */
+.titolo-price{
+    padding-left: 5px;
+}
+.titolo-price h2{
+    padding-top: 20px;
+    font-weight: 800;
+}
+.titolo-price div:nth-child(2){
+    padding: 20px 0;
+    font-weight: 800;
+}
+.titolo-price div:nth-child(3){
+    color: #aaa;
+    padding-bottom: 20px;
+}
+/* Fine tittolo price col1 */
+/* Inizio list & icon col1 */
+.style-list > li{
+    font-size: 11px;
+}
+.style-list i{
+    font-size: 13px;        
+}
+/* Fine list & icon col1 */
+/* Inizio link  */
+.href{
+    margin-top: 20px;
+    text-align: center;
+}
+.giorni-prova{        
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;    
+}
+.oppure a{    
+    color: blue;  
+    text-decoration: underline;        
+}
+/* Fine link */
+/* Inizio background line */
+.line-bg{
+    margin-left: 20px;
+    width: 20%;
+    height: 1px;
+    background-color: #aaa;
+}
+/* Fine background line */
