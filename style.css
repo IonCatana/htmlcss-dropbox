@@ -304,6 +304,9 @@ main{
     width: 50%;
     float: left;
 }
+.img-partner img{
+    padding-left: 10px;
+}
 .partner-h4{
     padding-top: 20px;
     padding-left: 40px;
@@ -311,8 +314,8 @@ main{
     float: left;
 }
 .partner-h4 h4{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 800;
 }
 .partner-h4 p{
     padding: 0;
@@ -321,7 +324,71 @@ main{
     font-size: 15px;
 }
 .partner-h4 a{    
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid black;
 }
 /* Fine partner */
+/* Inizio dropbox business */
+.content-business{
+    width: 100%;    
+}
+.content-business h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+.content-business p{
+    padding-left: 0;
+    font-size: 12px;
+
+}
+.titolo-business{
+    padding: 20px 10px;
+}
+.titolo-business h2{
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.main-business{
+    width: 100%;    
+    /* Inizio mini1 business */
+}.mini1-business{ 
+    padding: 10px;  
+    width: 100%;  
+    padding-bottom: 50px;      
+}
+.switching{
+    width: 29.33%;        
+    float: left;
+}
+.dropbox-paper{
+    text-decoration: underline;
+}
+.coordinate{
+    width: 29.33%;     
+    margin: 0 6%;           
+    float: left;
+}
+.multi-device{
+    width: 29.33%;      
+    float: left;
+}
+/* Fine mini1 business */
+/* Inizio mini2 business */
+.mini2-business{    
+    padding: 10px;
+    width: 100%;       }
+.integration{
+    width: 29.33%;     
+    float: left;
+}
+.send-file{
+    width: 29.33%;  
+    margin: 0 6%;       
+    float: left;
+}
+.security{
+    width: 29.33%;      
+    float: left;
+}
+/* Fine mini2 business */
