@@ -1,19 +1,27 @@
+/* Inizio regola generale */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cleaefix::after{
     content: "";
     display: block;
     clear: both;
 }
-.clearfix .col1{
-    padding-right: 0;
-}
-.container{
-    width: 1400px;
+/* Fine regola generale */
+header{
+    width: 1200px;
     margin: 0 auto;
+}
+/* Inizio container */
+.container{
+    width: 100%;    
+    margin: 0 auto;
+}
+.clearfix{
+    min-height: 50px;
 }
 .header-nav-left{
     margin-top: 10px;
@@ -23,25 +31,139 @@
     margin-top: 10px;
     width: 50%;
 }
-.col-1{    
+.col-1, .img-logo{    
     float: left;      
 }
-.col-2, .img-logo{
-    float: left;    
+.col-2{
+    float: right;    
 }
-img{    
+.img-logo{    
     padding-top: 6px;    
 }
 ul{
+    margin-right: 20px;
     margin-left: 10px;
 }
-
 li{
     list-style: none;
     padding: 10px;    
 }
+.inizia {
+     border: 1px solid blue;
+     background-color: blue;
+     color: white;
+     padding: 5px 10px 5px 10px;    
+}
 a{
     text-decoration: none;
+    color: black;
 }
-
-
+/* Fine container */
+/* Inizio header bottom */
+.header-bottom-top{  
+    width: 1200px;  
+    min-height: 500px;    
+    background-color: rgb(173, 200, 231);
+}
+.content-header-bottom{
+    width: 80%;
+    margin: 0 auto;    
+    height: 300px;
+    position: relative;
+}
+.testo-h1{
+    padding-left: 5px;
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;    
+    font-size: 28px;
+}
+.p-abbonamento{
+    padding-top: 50px;
+    width: 28%;
+    margin: 0 auto;    
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+p{
+    padding: 20px 5px;
+    font-size: 12px;
+}
+i{
+    font-size: 26px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.prova-gratis{
+    margin-left: 5px;
+    padding-left: 20px;    
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.img-jumbo{    
+    width: 40%;
+    margin: 0 auto;    
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 50px;
+}
+.jumbo{
+    width: 500px;
+}
+/* Fine header bottom */
+main{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+/* Inizio main'contein */
+.main-contein{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.titolo-main-top{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+.titolo-main-top > h2{
+    margin: 80px 0;
+    font-size: 30px;
+}
+.input-div{
+    
+    margin: 40px 0;
+}
+.input{
+    margin-right: 20px;
+}
+.main-col{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid violet;
+}
+.col1{
+    width: 33.33%;
+    border: 1px solid rgb(20, 3, 247);
+}
+.col2{
+    width: 33.33%;
+    border: 1px solid rgb(243, 247, 3);
+}
+.col3{
+    width: 33.33%;
+    border: 1px solid rgb(3, 247, 36);
+}
+.titolo-main-bottom{
+    width: 100%;
+    border: 1px solid aqua ;
+} span{
+    display: block;
+}
