@@ -122,14 +122,12 @@ i{
 /* Fine header bottom */
 main{
     max-width: 1200px;
-    margin: 0 auto;
-    border: 1px solid black;
+    margin: 0 auto;    
 }
 /* Inizio main contein */
 .main-contein{
     width: 70%;
-    margin: 0 auto;    
-    border: 1px solid red;
+    margin: 0 auto;       
 }
 .titolo-main-top{
     width: 100%;
@@ -152,6 +150,7 @@ main{
 }
 .col1{
     width: 29.33%;
+    min-height: 761px;
     border: 1px solid #aaa;        
 }
 .col1 i, .col2 i, .col3 i{
@@ -160,15 +159,14 @@ main{
 .col2{
     width: 29.33%;
     border: 1px solid #aaa; 
-    margin: 0 6%;     
+    margin: 0 6%;  
+    min-height: 761px;   
 }
 .col3{
     width: 29.33%;
     border: 1px solid #aaa;  
-        
+    min-height: 761px;        
 }
-
-
 /* Inizio col1 */
 .singolo{
     width: 100%;       
@@ -176,22 +174,25 @@ main{
     border-bottom: 1px solid #aaa;
     padding: 5px;
 }
+.singolo i{
+    font-size: 14px;
+}
 /* Inizio tittolo price col1 */
 
 .titolo-price h2{
-    margin-left: 10px;
+    margin-left: 20px;
     padding-top: 20px;
     font-weight: 800;
     font-size: 18px;
 }
 .titolo-price div:nth-child(2){
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 20px 0;
     font-weight: 800;
     font-size: 14px;
 }
 .titolo-price div:nth-child(3){
-    margin-left: 10px;
+    margin-left: 20px;
     color: #aaa;
     padding-bottom: 20px;
     font-size: 14px;
@@ -213,10 +214,10 @@ main{
 .giorni-prova{        
     background-color: rgb(22, 129, 250);
     color: white;
-    padding: 10px 40px 10px 40px;  
+    padding: 10px 30px 10px 40px;  
     font-size: 12px;  
 }
-.oppure a{    
+.oppure a, .feedback a{    
     color: rgb(22, 129, 250);
     text-decoration: underline;        
 }
@@ -235,7 +236,7 @@ main{
 /* Fine background line */
 /* Inizio list bottom col1, col2, col3 */
 .list-bottom-col1 h3{
-    margin-left: 10px;
+    margin-left: 20px;
     font-weight: 800;
     font-size: 14px;
 }
@@ -267,32 +268,38 @@ main{
 }
 .col-4 i{
     padding-bottom: 0;
+    font-size: 14px;
 }
 .col4-footer{
     width: 100%;
     border: 1px solid #aaa;
     border-bottom: none;
     padding: 10px;
+    padding-top: 20px;
+}
+.col4-footer a{
+    padding: 8px 50px 8px 50px;
 }
 .col4-footer h4{
     font-size: 20px; 
-    font-weight: 800;   
+    font-weight: 800;     
 }
 .col4-footer a {
     font-size: 14px;
 }
 .sottotitolo{
-    margin-top: 20px;
+    padding-top: 30px;
     border: 1px solid #aaa;
-    border-top: none;
-    padding: 10px;
+    border-top: none;    
 }
 .sottotitolo h5{
     font-size: 15px;
+    padding-left: 10px;
 }
 .sottotitolo > p{
     padding-left: 0;
     font-size: 10px;
+    padding-left: 10px;
 }
 /* Fine col4 */
 /* Inizio partner */
@@ -342,6 +349,7 @@ main{
 
 }
 .titolo-business{
+    margin-top: 50px;
     padding: 20px 10px;
 }
 .titolo-business h2{
@@ -353,6 +361,7 @@ main{
     width: 100%;    
     /* Inizio mini1 business */
 }.mini1-business{ 
+    float: left;    
     padding: 10px;  
     width: 100%;  
     padding-bottom: 50px;      
@@ -375,9 +384,12 @@ main{
 }
 /* Fine mini1 business */
 /* Inizio mini2 business */
-.mini2-business{    
+.mini2-business{  
+    margin-top: 50px;
+    float: left;         
     padding: 10px;
-    width: 100%;       }
+    width: 100%;          
+ }
 .integration{
     width: 29.33%;     
     float: left;
@@ -392,3 +404,216 @@ main{
     float: left;
 }
 /* Fine mini2 business */
+/* Fine dropbox business */
+/* Inizio 500.000 team */
+
+.feedback h2{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.feedback{
+    margin: 100px 0px 50px 10px;
+}
+/* Fine 500.000 team */
+/* Inizio design XL */
+.content-design-xl{
+    width: 100%;
+    float: left;
+}
+/* Inizio design1 */
+.design1{
+    float: left;
+    width: 30%;  
+    position: relative;  
+    min-height: 356px;  
+}
+.design1 img{
+    filter: invert(100%);
+    object-fit: contain;
+    width: 50%;  
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.designit{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(189, 240, 173);
+    border: 10px solid rgb(223, 250, 209);
+}
+.asu{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(80, 33, 43);
+}
+.uf{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(95, 159, 202);    
+}
+.topps{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: red;
+}
+/* Fine design1 */
+/* Inizio testo design */
+.testo-design{  
+    padding-top: 80px;
+    width: 40%;
+    min-height: 356px;
+    background-color: rgb(241, 238, 238);      
+    float: left;          
+}
+.testo-design img{
+    width: 100px;
+}
+.img-testo{
+    padding-left: 20px;
+}
+.line-bg-testo{
+    margin: 20px 0;
+    margin-left: 20px;
+    width: 8%;
+    height: 1px;
+    background-color: #aaa;
+}
+/* Fine testo design */
+/* Inizio design2 */
+.design2{
+    float: left;
+    width: 30%;  
+    min-height: 356px;     
+}
+.design2 img{
+    filter: invert(100%);
+    object-fit: contain;
+    width: 50%;  
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.world-bicycle{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(173, 19, 5);
+}
+.hearst-corp{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(175, 217, 223);
+}
+.lonely-planet{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(0, 17, 112);    
+}
+.clear-channel{
+    float: left;
+    width: 50%;
+    height: 178px;    
+    background-color: rgb(248, 221, 64);
+}
+/* Fine design2 */
+/* Fine design XL*/
+/* Inizio porta dropbox */
+.porta-dropbox{     
+    width: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: rgb(180, 213, 241);
+}
+.divbefore-footer{
+    width: 70%;
+    margin: 0 auto;
+}
+.porta-dropbox h2{
+    color: rgb(112, 12, 40); 
+    margin-top: 100px;   
+    float: left; 
+}
+.porta-dropbox a{  
+    margin-top: 100px;  
+    padding: 5px 40px;
+    background-color: white;
+    float: right;    
+}
+/* Fine porta dropbox */
+/* Inizio domande frequenti */
+.domande{
+    width: 70%;
+    margin: 0 auto;       
+}
+.domande h2{
+    margin-top: 80px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.domande p{
+    margin: 0;
+    padding-left: 0;
+    font-weight: 800;
+}
+.domande .line-bg{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.domande i {    
+    float: right;
+    padding-top: 20px;
+    color: #555;
+    margin-right: 20px;
+}
+.differenza{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+/* Fine domande frequenti */
+/* Inizio footer */
+.footer-bg{
+    width: 1200px;  
+    margin: 0 auto;  
+    background-color: black;
+    color: white;
+}
+.footer-bg .line-bg{
+    margin-top: 20px;
+    margin-left: 10.8%;
+    width: 100px;
+}
+.contein-footer{
+    padding-top: 70px;
+    width: 80%;
+    margin: 0 auto;   
+    padding-bottom: 80px; 
+}
+.contein-footer ul{
+    float: left;
+    width: 15.5%;
+}
+.contein-footer h4{
+    padding-bottom: 20px;
+}
+.scegliere-lingua{
+    width: 80%;
+    margin: 0 auto;   
+    padding-left: 1px; 
+}
+.scegliere-lingua i{
+    margin-top:10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+    padding-left: 5px;
+}
+
+/* Fine footer */
